@@ -9,8 +9,8 @@ gulp.task('es6', () => {
         .pipe(gulp.dest('./dist'));
 });
 
-gulp.task('watch', () => {
-    gulp.watch('./*.js', ['es6']);
-});
+// gulp.task('watch', () => {
+//     gulp.watch('./*.js', ['es6']);
+// });
 
-gulp.task('default', ['es6', 'watch']);
+gulp.task('default', ['es6']);
